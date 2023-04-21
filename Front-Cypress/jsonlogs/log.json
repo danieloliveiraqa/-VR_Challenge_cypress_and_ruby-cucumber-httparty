@@ -1,0 +1,74 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "testando-funcionalidades-do-site-da-vr;validar-exibição-do-mapa-do-google-ao-buscar-redes-quea-aceitam-vr",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validar exibição do mapa do google ao buscar redes quea aceitam VR",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que estou na página inicial da VR",
+            "result": {
+              "duration": 7385000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "seleciono a opção \"Onde usar meu VR\" no menu \"Pra Voce\"",
+            "result": {
+              "duration": 1236000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "visualizo que o mapa do google foi exibido",
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@CT-00001"
+          },
+          {
+            "line": 4,
+            "name": "@CT-01"
+          }
+        ]
+      }
+    ],
+    "id": "testando-funcionalidades-do-site-da-vr",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Testando funcionalidades do site da VR",
+    "uri": "cypress\\e2e\\features\\VR.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CT-00001"
+      }
+    ]
+  }
+]

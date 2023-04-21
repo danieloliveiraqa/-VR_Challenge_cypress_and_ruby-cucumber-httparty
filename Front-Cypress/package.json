@@ -1,0 +1,31 @@
+{
+  "name": "cypress10bddpage",
+  "version": "1.0.0",
+  "description": "cypress 10 with bdd-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.10.0",
+    "cypress-cucumber-tagging": "^1.0.3",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.15.12"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "chance": "^1.1.9",
+    "Faker": "^0.7.2",
+    "faker-br": "^0.4.1",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  }
+}
